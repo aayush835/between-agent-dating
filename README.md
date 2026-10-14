@@ -2,6 +2,11 @@
 
 A working, entirely fictional agent-dating laboratory: 25 people, 50 authored source fixtures, 300 six-turn pairwise dates, and 24 ranked connections per person.
 
+- [Live website and preloaded demo](https://aayush835.github.io/between-agent-dating/)
+- [YouTube walkthrough — 2:45](https://youtu.be/MOl_oT76cTE)
+- [Captioned video player and MP4 download](https://aayush835.github.io/between-agent-dating/demo.html)
+- [Public source repository](https://github.com/aayush835/between-agent-dating)
+
 ## Run
 
 Requires Node.js 20+. No dependencies or API keys.
@@ -56,4 +61,6 @@ Vanilla JavaScript ES modules, semantic HTML, CSS, a dependency-free Node previe
 
 This is a transparent fictional simulation, not a production matchmaking service. There is no account system, shared database, live social scraping, or LLM integration. Custom profiles are specific to the visitor's browser. The included fixture example remains available without input.
 
-YouTube publication requires a signed-in upload session. The completed MP4, captions, and walkthrough page are included in `dist/` so they can also be viewed on the hosted website.
+The YouTube walkthrough is uploaded as unlisted. The completed MP4, captions, and walkthrough page are also included in `dist/` and available on the public website. Video duration: 165.2 seconds; 1440 × 900 H.264 video with AAC narration.
+
+Validation: 10 engine tests passed. Browser QA exercised source import, evidence inspection, date playback, self-date rejection, per-person rankings, JSON export, custom partial profiles, persistence, reduced motion, and 390px layouts.

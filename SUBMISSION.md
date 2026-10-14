@@ -1,12 +1,17 @@
 # Submission
 
+- YouTube: https://youtu.be/MOl_oT76cTE (unlisted, 2:45)
+- Live website and preloaded example: https://aayush835.github.io/between-agent-dating/
+- Public GitHub: https://github.com/aayush835/between-agent-dating
+- Captioned video and MP4 download: https://aayush835.github.io/between-agent-dating/demo.html
+
 ## Overall explanation (under 200 characters)
 
 Between gives 25 fictional people source-backed agents that meet, negotiate, and explain their fit. Explore profiles, watch dates, and inspect personalized rankings—all in a working browser demo.
 
 ## Technical section
 
-JavaScript, HTML/CSS, Node.js tests and preview server, browser localStorage, static Sites hosting. No scraper: fictional LinkedIn and public Instagram fixture documents are parsed locally with evidence attribution. The dating harness is stateful and rule-based, not an LLM.
+JavaScript, HTML/CSS, Node.js tests and preview server, browser localStorage, GitHub Pages and static Sites hosting. No scraper: fictional LinkedIn and public Instagram fixture documents are parsed locally with evidence attribution. The dating harness is stateful and rule-based, not an LLM.
 
 ## Three-minute demonstration outline
 
@@ -20,6 +25,6 @@ JavaScript, HTML/CSS, Node.js tests and preview server, browser localStorage, st
 
 ## Publishing
 
-GitHub: publication is handled through the authenticated GitHub CLI. See the final handoff for the verified public repository URL.
+GitHub: public repository and GitHub Pages deployment verified.
 
-YouTube: not uploaded until an authenticated upload session is available. A local video is prepared separately; see the final handoff for the actual artifact.
+YouTube: uploaded to the signed-in channel as an unlisted video. It is also available as a self-hosted MP4 with English captions.
