@@ -1,0 +1,11 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {execFileSync} from 'node:child_process';
+const timing=JSON.parse(readFileSync('artifacts/video-timing.json','utf8'));
+const chapters=JSON.parse(readFileSync('scripts/video-narration.json','utf8'));
+const concat=chapters.map((_,i)=>`file 'audio/${i}.wav'`).join('\n');writeFileSync('artifacts/audio-list.txt',concat);
+execFileSync('ffmpeg',['-y','-f','concat','-safe','0','-i','artifacts/audio-list.txt','-c:a','pcm_s16le','artifacts/narration.wav'],{stdio:'pipe'});
+execFileSync('ffmpeg',['-y','-ss',String(timing.preroll),'-i','artifacts/demo-raw.webm','-i','artifacts/narration.wav','-map','0:v:0','-map','1:a:0','-c:v','libx264','-preset','fast','-crf','23','-pix_fmt','yuv420p','-c:a','aac','-b:a','128k','-shortest','-movflags','+faststart','dist/between-demo.mp4'],{stdio:'pipe'});
+execFileSync('ffmpeg',['-y','-ss','1','-i','dist/between-demo.mp4','-frames:v','1','dist/demo-poster.jpg'],{stdio:'pipe'});
+const stamp=s=>{const ms=Math.round(s*1000);return `${String(Math.floor(ms/3600000)).padStart(2,'0')}:${String(Math.floor(ms/60000)%60).padStart(2,'0')}:${String(Math.floor(ms/1000)%60).padStart(2,'0')}.${String(ms%1000).padStart(3,'0')}`;};
+let cursor=0,vtt='WEBVTT\n\n';chapters.forEach((c,i)=>{const sentences=c.text.match(/[^.!?]+[.!?]+/g)||[c.text];let offset=0;const sum=sentences.reduce((n,s)=>n+s.length,0);for(const s of sentences){const duration=timing.durations[i]*s.length/sum;vtt+=`${stamp(cursor+offset)} --> ${stamp(cursor+offset+duration)}\n${s.trim()}\n\n`;offset+=duration;}cursor+=timing.durations[i];});writeFileSync('dist/demo-captions.vtt',vtt);
+const result=JSON.parse(execFileSync('ffprobe',['-v','error','-show_entries','format=duration,size:stream=codec_name,width,height','-of','json','dist/between-demo.mp4'],{encoding:'utf8'}));if(Number(result.format.duration)>180)throw Error('Video exceeds three minutes');writeFileSync('artifacts/video-verification.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));
