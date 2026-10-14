@@ -1,0 +1,143 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.545
+Welcome to Between, a dating laboratory with twenty five entirely fictional people.
+
+00:00:04.545 --> 00:00:07.830
+Each has two authored source profiles and a personal agent.
+
+00:00:07.830 --> 00:00:13.688
+The experiment runs all three hundred unique pairings, giving every person twenty four ranked connections.
+
+00:00:13.688 --> 00:00:15.824
+Start with the people, not the scores.
+
+00:00:15.824 --> 00:00:18.890
+You can browse by city or search for a shared interest.
+
+00:00:18.890 --> 00:00:20.800
+Here is the complete input flow.
+
+00:00:20.800 --> 00:00:26.352
+Add a person, paste their LinkedIn and public Instagram fixture links, and read the sources.
+
+00:00:26.352 --> 00:00:31.128
+These example addresses identify fictional documents, not real social accounts.
+
+00:00:31.128 --> 00:00:33.277
+The analysis opens a profile first.
+
+00:00:33.277 --> 00:00:36.321
+Maya values curiosity, kindness, and independence.
+
+00:00:36.321 --> 00:00:41.396
+Her hobbies, needs, and relationship intention come from explicit source statements.
+
+00:00:41.396 --> 00:00:43.732
+Nothing is hidden behind a personality label.
+
+00:00:43.732 --> 00:00:50.118
+Open the LinkedIn fixture to inspect the original document, then the Instagram fixture to read Maya's interests and needs.
+
+00:00:50.118 --> 00:00:52.350
+Each extracted statement keeps its source.
+
+00:00:52.350 --> 00:00:54.167
+Missing information stays unknown.
+
+00:00:54.167 --> 00:01:00.345
+The agent represents what the person actually said, rather than guessing romantic needs from a career or a photograph.
+
+00:01:00.345 --> 00:01:03.416
+Now Maya's agent meets Leo's at a neighborhood cafe.
+
+00:01:03.416 --> 00:01:06.015
+The first turn identifies shared interests.
+
+00:01:06.015 --> 00:01:10.031
+Leo's agent responds with a stated need and asks about social time.
+
+00:01:10.031 --> 00:01:12.689
+Maya's agent adapts and proposes a schedule.
+
+00:01:12.689 --> 00:01:14.520
+Leo responds to that proposal.
+
+00:01:14.520 --> 00:01:18.418
+Finally, the agents check their relationship intentions directly.
+
+00:01:18.418 --> 00:01:22.552
+You can pause, step through, or open the explanation behind any turn.
+
+00:01:22.552 --> 00:01:25.575
+A different pairing produces a different conversation.
+
+00:01:25.575 --> 00:01:27.815
+Samir prefers quiet, predictable plans.
+
+00:01:27.815 --> 00:01:30.390
+Inez prefers a spontaneous, social afternoon.
+
+00:01:30.390 --> 00:01:34.589
+Their agents negotiate a fixed start time with an optional group activity.
+
+00:01:34.589 --> 00:01:37.389
+But Samir wants commitment and Inez is exploring.
+
+00:01:37.389 --> 00:01:39.684
+The harness preserves that disagreement.
+
+00:01:39.684 --> 00:01:44.779
+It caps the score instead of pretending a clever compromise resolves different intentions.
+
+00:01:44.779 --> 00:01:48.527
+Only after the profiles and conversations do we compare connections.
+
+00:01:48.527 --> 00:01:51.833
+Every person receives a ranking from their own perspective.
+
+00:01:51.833 --> 00:01:57.345
+Open Why this fit to inspect values, interests, intentions, rhythm, social energy, and negotiation.
+
+00:01:57.345 --> 00:01:58.998
+Different cities are flagged.
+
+00:01:58.998 --> 00:02:03.573
+These are transparent heuristic scores, not probabilities of relationship success.
+
+00:02:03.573 --> 00:02:06.108
+You can switch people and replay any pairing.
+
+00:02:06.108 --> 00:02:07.505
+The demo is also editable.
+
+00:02:07.505 --> 00:02:14.543
+Supply two new fictional source documents using the labeled format, and the app creates a new agent and recalculates all pairings.
+
+00:02:14.543 --> 00:02:16.692
+Custom characters stay in this browser.
+
+00:02:16.692 --> 00:02:20.883
+Export downloads the sources, analyses, conversations, and rankings together.
+
+00:02:20.883 --> 00:02:25.665
+The default twenty five person experiment is always available without entering anything.
+
+00:02:25.665 --> 00:02:28.975
+Between uses an inspectable, rule based agent harness.
+
+00:02:28.975 --> 00:02:32.225
+No language model or live social scraper is claimed.
+
+00:02:32.225 --> 00:02:40.072
+It is a complete fictional simulation: two sources, an evidence backed profile, visible agent dates, and personalized rankings.
+
+00:02:40.072 --> 00:02:42.279
+The website works without API keys.
+
+00:02:42.279 --> 00:02:43.689
+A little less swiping.
+
+00:02:43.689 --> 00:02:45.283
+A little more connection.
+
