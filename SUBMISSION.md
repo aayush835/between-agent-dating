@@ -1,9 +1,9 @@
 # Submission
 
 - YouTube: https://youtu.be/MOl_oT76cTE (unlisted, 2:45)
-- Live website and preloaded example: https://aayush835.github.io/between-agent-dating/
-- Public GitHub: https://github.com/aayush835/between-agent-dating
-- Captioned video and MP4 download: https://aayush835.github.io/between-agent-dating/demo.html
+- Live website and preloaded example: https://aayushkumbharkar.github.io/between-agent-dating/
+- Public GitHub: https://github.com/aayushkumbharkar/between-agent-dating
+- Captioned video and MP4 download: https://aayushkumbharkar.github.io/between-agent-dating/demo.html
 
 ## Overall explanation (under 200 characters)
 

@@ -2,10 +2,10 @@
 
 A working, entirely fictional agent-dating laboratory: 25 people, 50 authored source fixtures, 300 six-turn pairwise dates, and 24 ranked connections per person.
 
-- [Live website and preloaded demo](https://aayush835.github.io/between-agent-dating/)
+- [Live website and preloaded demo](https://aayushkumbharkar.github.io/between-agent-dating/)
 - [YouTube walkthrough — 2:45](https://youtu.be/MOl_oT76cTE)
-- [Captioned video player and MP4 download](https://aayush835.github.io/between-agent-dating/demo.html)
-- [Public source repository](https://github.com/aayush835/between-agent-dating)
+- [Captioned video player and MP4 download](https://aayushkumbharkar.github.io/between-agent-dating/demo.html)
+- [Public source repository](https://github.com/aayushkumbharkar/between-agent-dating)
 
 ## Run
 
